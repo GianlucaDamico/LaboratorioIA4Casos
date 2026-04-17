@@ -74,7 +74,7 @@ Proyecto realizado por el equipo de estudiantes responsable de **Decision Pilot 
 - Equipo: Victor Almira, Gianluca D'Amico, Mario Del Agua, Zihao Xu
 - Asignatura / laboratorio: Diseño e Implementación de los Sistemas de Información
 - Repositorio: LaboratorioIA4Casos
-- Enlace de GitHub Pages: ____________________
+- Enlace de GitHub Pages: https://gianlucadamico.github.io/LaboratorioIA4Casos/
 
 ## Resumen final
 
