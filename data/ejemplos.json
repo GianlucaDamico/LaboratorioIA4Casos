@@ -1,1 +1,46 @@
-
+{
+  "admisiones": {
+    "id": "admisiones",
+    "nombre": "Admisión y becas universitarias",
+    "descripcion": "Evaluación del uso de IA para prevalidar solicitudes y resumir expedientes académicos.",
+    "contexto": "Una universidad privada recibe un volumen alto de solicitudes de admisión y beca en periodos cortos. El equipo quiere reducir tiempos de revisión inicial sin perder equidad, trazabilidad ni control humano en decisiones sensibles.",
+    "decision": "Decidir si conviene implantar un asistente con IA para prevalidar solicitudes, detectar expedientes incompletos y generar resúmenes de apoyo para el comité de admisiones y becas.",
+    "datos": "La universidad recibe unas 4200 solicitudes por campaña. Un 28% llega con documentación incompleta. El plazo máximo de resolución es de 21 días. Los expedientes incluyen notas, renta familiar, documentación personal y cartas de motivación. Actualmente toda la revisión inicial es manual.",
+    "restricciones": "No se puede automatizar la decisión final de admisión o beca. Debe mantenerse trazabilidad de criterios, revisión humana obligatoria y cumplimiento de protección de datos. El presupuesto inicial es limitado y el equipo administrativo no puede asumir una implantación compleja.",
+    "metricas": "4200 solicitudes por campaña; 28% incompletas; plazo máximo de resolución: 21 días; revisión manual actual: 100%",
+    "riesgo_principal": "Sesgo en el tratamiento de expedientes y uso inadecuado de datos sensibles en decisiones de alto impacto."
+  },
+  "soporte-ti": {
+    "id": "soporte-ti",
+    "nombre": "Tickets internos de soporte TI",
+    "descripcion": "Análisis de automatización para clasificar y escalar tickets internos de forma más eficiente.",
+    "contexto": "Una empresa mediana gestiona incidencias internas de TI por correo y portal interno. El equipo de soporte quiere reducir tiempos de respuesta y mejorar la clasificación de tickets repetidos sin poner en riesgo la gestión de incidentes críticos.",
+    "decision": "Decidir si conviene automatizar la clasificación inicial, la priorización básica y el escalado de tickets estándar mediante IA.",
+    "datos": "Se reciben unos 1800 tickets al mes. El tiempo medio de primera respuesta es de 9 horas laborales. Un 46% de los tickets son repetidos o muy similares. Existen tickets críticos relacionados con acceso, ciberseguridad o caída de servicios. El SLA objetivo para tickets normales es responder en menos de 4 horas.",
+    "restricciones": "Los incidentes de alta severidad no pueden quedar en manos de una automatización no supervisada. La solución debe integrarse con el proceso actual sin rediseño total inicial. No hay presupuesto para una herramienta enterprise compleja en esta fase piloto.",
+    "metricas": "1800 tickets/mes; 9 horas de primera respuesta media; 46% de tickets repetidos; SLA objetivo: < 4 horas en tickets normales",
+    "riesgo_principal": "Clasificación incorrecta de incidentes críticos y escalado insuficiente en casos de alta severidad."
+  },
+  "ecommerce": {
+    "id": "ecommerce",
+    "nombre": "Devoluciones y fraude en e-commerce",
+    "descripcion": "Evaluación de IA para automatizar devoluciones simples y detectar señales de fraude.",
+    "contexto": "Un e-commerce de moda quiere acelerar las devoluciones para mejorar la experiencia del cliente, pero sin aumentar pérdidas por fraude o abusos del proceso.",
+    "decision": "Decidir si conviene automatizar devoluciones estándar y reservar revisión humana para pedidos de mayor riesgo o posibles casos de fraude.",
+    "datos": "La tienda procesa unas 3200 devoluciones al mes. El fraude estimado ronda el 3,8%. El tiempo medio de resolución actual es de 4,5 días. El valor medio del pedido es de 78 euros, pero existe un segmento relevante de pedidos superiores a 250 euros. Hoy el proceso mezcla casos sencillos y sospechosos en la misma cola.",
+    "restricciones": "Los pedidos de alto valor o con señales de riesgo deben revisarse manualmente. No se puede empeorar la experiencia del cliente legítimo con bloqueos excesivos. El piloto debe demostrar mejora operativa sin disparar costes de revisión.",
+    "metricas": "3200 devoluciones/mes; fraude estimado: 3,8%; resolución media: 4,5 días; valor medio del pedido: 78 euros",
+    "riesgo_principal": "Automatizar devoluciones sin separar excepciones puede aumentar fraude o generar rechazos injustos a clientes legítimos."
+  },
+  "documentacion": {
+    "id": "documentacion",
+    "nombre": "Asistente interno de documentación corporativa",
+    "descripcion": "Comparación de opciones para un asistente que consulta documentos internos con control de coste y riesgo.",
+    "contexto": "Una empresa con áreas de operaciones, RR. HH. y legal quiere ofrecer a sus empleados un asistente para consultar políticas, manuales y documentación interna, pero necesita controlar privacidad, latencia y coste mensual.",
+    "decision": "Decidir qué arquitectura conviene para desplegar un asistente interno de documentación y qué política de uso debe acompañarlo.",
+    "datos": "Hay 650 usuarios activos potenciales. Se estiman unas 12 consultas al mes por usuario. La documentación incluye políticas internas, procedimientos operativos y algunos documentos sensibles. La latencia máxima tolerable es de 4 segundos por respuesta. El presupuesto mensual objetivo es inferior a 1800 euros.",
+    "restricciones": "No toda la documentación puede salir a servicios externos sin evaluación previa. Debe existir trazabilidad mínima de fuentes y límites de acceso por perfil. La solución debe equilibrar privacidad, coste, tiempo de respuesta y facilidad de mantenimiento.",
+    "metricas": "650 usuarios activos potenciales; 12 consultas/usuario/mes; latencia máxima: 4 s; presupuesto objetivo: < 1800 euros/mes",
+    "riesgo_principal": "Exposición de información sensible o arquitectura mal elegida que dispare coste, latencia o riesgo de privacidad."
+  }
+}
